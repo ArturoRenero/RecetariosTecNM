@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Finger+Paint&family=Indie+Flower&family=Nabla&family=Playwrite+US+Trad:wght@100..400&family=Reenie+Beanie&family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
     <title>Recetas TecNM</title>
+    <link rel="stylesheet" href="./Styles/index.css" />
   </head>
   <body>
     <header>
@@ -18,16 +25,33 @@
         </center>
       </div>
       <hr />
-      <div>
-        <div>Menú</div>
+      <nav>
         <div>
-          <label for="busqueda">Búsca una Receta:</label>
-          <input type="search" id="busqueda" name="busqueda" />
+          <div>Menú</div>
+          <div>
+            <input
+              type="search"
+              id="busqueda"
+              name="busqueda"
+              value="Búsca una Receta..."
+            />
+            <!-- Habra que investigar como hacer para que al momento de que el usuario escriba/seleccione la barra de busqueda, value="NULL"-->
+          </div>
+          <div id="Profile">
+            Perfil >
+            <a href="./index2.html"
+              ><img
+                src="./Resources/Images/cubo-de-la-basura (1).png"
+                alt="Profile"
+                height="30px"
+            /></a>
+          </div>
         </div>
-        <div>Perfil</div>
-      </div>
+      </nav>
     </header>
+
     <hr />
+
     <main>
       <div>
         <a href="https://www.tlajomulco.tecnm.mx"
@@ -39,8 +63,25 @@
           ><img src="./Resources/Images/AlphabetSoup.jpg" alt="AlphabetSoup"
         /></a>
       </div>
+      <p>
+        Hola que tal yo me llamo pancho y me gusta mucho la sopa, es muy rica
+        cuando esta caliente y sabe bien con un poco de crema mezclada. Tambien
+        me gusta el espaguetti con crema y salsa de jitomate
+      </p>
     </main>
+    <div>
+      <a href="https://www.tlajomulco.tecnm.mx"
+        ><img src="./Resources/Images/ButterChicken.jpg" alt="ButterChicken"
+      /></a>
+    </div>
+    <div>
+      <a href="https://www.tlajomulco.tecnm.mx"
+        ><img src="./Resources/Images/ButterChicken.jpg" alt="ButterChicken"
+      /></a>
+    </div>
+
     <hr />
-    <footer>gola</footer>
+
+    <footer>Footer Copyright</footer>
   </body>
 </html>

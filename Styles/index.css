@@ -1,0 +1,150 @@
+/* header {
+  color: blue;
+} */
+
+main {
+  background-color: #aea594;
+}
+
+footer {
+  color: red;
+}
+
+/* 
+<weight>: Use a value from 100 to 400
+<uniquifier>: Use a unique and descriptive class name 
+*/
+header {
+  background-color: #205134;
+  position: relative;
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+/* Second Font: Exo-2*/
+/* .exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+#MenuPrincipal {
+  margin-right: 2%;
+  position: relative;
+  /* top: 80px; */
+  left: 0px;
+  color: darkgreen;
+  background-color: #e0e7da;
+  width: 100%;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#TituloPrincipal {
+  color: rgb(244, 124, 4);
+}
+
+#CuerpoPagina {
+  background-color: blueviolet;
+}
+
+#Tambien {
+  color: coral;
+}
+
+/************************
+|    Available Fonts    |    
+************************/
+
+/* 
+===== Playwrite USA Tradicional =====
+// <weight>: Use a value from 100 to 400
+// <uniquifier>: Use a unique and descriptive class name
+
+.playwrite-us-trad-<uniquifier> {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/*
+===== Exo 2 =====
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
+/*
+===== Nabla =====
+// <uniquifier>: Use a unique and descriptive class name
+
+.nabla-<uniquifier> {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+*/
+
+/*
+===== Indie Flower =====  
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/*
+===== Finger Paint =====
+.finger-paint-regular {
+  font-family: "Finger Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/*
+===== Reenie Beanie =====
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/*
+===== Rock Salt =====
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+/*************************
+|    Available Colors    |
+*************************/
+/*
+Color 1: #205134 - Dark Green
+
+Color 2: #AEA594 - Sandish 
+
+Color 3: #E0E7DA - Whitish 
+*/
