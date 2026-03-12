@@ -16,6 +16,7 @@ footer {
 */
 header {
   background-color: #205134;
+  color: #e0e7da;
   position: relative;
   font-family: "Playwrite US Trad", cursive;
   font-optical-sizing: auto;
@@ -24,18 +25,9 @@ header {
   font-size: 25px;
 }
 
-/* Second Font: Exo-2*/
-/* .exo-2-<uniquifier> {
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-#MenuPrincipal {
+#BarraPrincipal {
   margin-right: 2%;
   position: relative;
-  /* top: 80px; */
   left: 0px;
   color: darkgreen;
   background-color: #e0e7da;
@@ -43,18 +35,7 @@ header {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-#TituloPrincipal {
-  color: rgb(244, 124, 4);
-}
-
-#CuerpoPagina {
-  background-color: blueviolet;
-}
-
-#Tambien {
-  color: coral;
+  display: inline-flex;
 }
 
 /************************
