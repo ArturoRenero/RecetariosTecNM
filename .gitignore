@@ -1,2 +1,9 @@
-Resources/
+# Resources/ Es necesario subir la carpeta Resources/ para la funcionalidad correcta de la pagina
+.gitignore
+config/data.json
+Resources/BootStrapButtons.html
+Resources/form.html
+Resources/modal.html
+Resources/ navbar.html
+Resources/popover.html
 *.txt
