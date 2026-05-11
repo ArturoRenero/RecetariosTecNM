@@ -32,10 +32,24 @@ header {
   color: darkgreen;
   background-color: #e0e7da;
   width: 100%;
+  height: fit-content;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: inline-flex;
+}
+
+#Menu {
+  background-color: #205134;
+
+}
+
+#SearchBar {
+  background-color: blueviolet;
+}
+
+#Profile {
+  background-color: aqua;
 }
 
 /************************

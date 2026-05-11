@@ -51,31 +51,43 @@
       </div>
       <!-- <hr /> May no longer be needed-->
       <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <article class="Container">
-          <div class="row">
-            <div class="col-2">Menú</div>
-            <!-- "Menu" no será un hypervinculo como tal, ya que solo desplegara un recuadro con otros hypervinculos -->
-            <div class="col-8">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="ejemplo.com" id="Menu">Menu</a>
+
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="col-8" id="SearchBar">
               <input
                 type="search"
                 id="busqueda"
                 name="busqueda"
-                value="Búsca una Receta..."
+                placeholder="Búsca una Receta..."
               />
               <!-- Habra que investigar como hacer para que al momento de que el usuario escriba/seleccione la barra de busqueda, value="NULL"-->
             </div>
-            <div class="col-2">
-              Perfil >
+            <div class="col-2" id="Profile">
               <!-- Perfil tampoco será un hypervinculo como lo es actualmente, lo deje de esta forma meramente por demostracion -->
               <a href="./index2.html"
-                ><img
-                  src="./Resources/Images/cubo-de-la-basura (1).png"
-                  alt="Profile"
-                  height="30px"
-              /></a>
+                ><script src="https://animatedicons.co/scripts/embed-animated-icons.js"></script>
+                <animated-icons
+                  src="https://animatedicons.co/get-icon?name=user%20profile&style=minimalistic&token=9b327b61-1433-451f-a476-148402217e82"
+                  trigger="hover"
+                  attributes='{"variationThumbColour":"#536DFE","variationName":"Two Tone","variationNumber":2,"numberOfGroups":2,"backgroundIsGroup":false,"strokeWidth":1,"defaultColours":{"group-1":"#000000","group-2":"#536DFE","background":"#FFFFFF"}}'
+                  height="50"
+                  width="50"
+                ></animated-icons
+              ></a>
             </div>
           </div>
         </article>
+        </div>
       </nav>
     </header>
 
